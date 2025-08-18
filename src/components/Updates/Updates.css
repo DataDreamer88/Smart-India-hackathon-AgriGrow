@@ -1,0 +1,47 @@
+.Updates-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Increased gap between boxes */
+    padding: 20px; /* Added padding around the container */
+  }
+  
+  .update-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Increased padding inside each box */
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15); /* Increased shadow for more emphasis */
+    min-height: 120px; /* Set a minimum height for better appearance */
+  }
+  
+  .update {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the content inside occupies full width of the box */
+  }
+  
+  img {
+    width: 70px; /* Increased image size */
+    height: 70px; /* Increased image size */
+    border-radius: 50%;
+    margin-right: 20px; /* Increased space between image and text */
+  }
+  
+  .noti {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .noti span:first-child {
+    font-weight: bold;
+    font-size: 1rem; /* Increased font size */
+  }
+  
+  .noti span:last-child {
+    color: #888;
+    font-size: 1rem; /* Increased font size */
+  }
+  

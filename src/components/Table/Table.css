@@ -1,0 +1,88 @@
+.MuiTableRow-root > * {
+  padding: 15px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 16px;
+  font-size: 1.1rem;
+  border-top: none;
+}
+
+.Table td,
+th {
+  border: none !important;
+  padding: 12px 20px;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.status {
+  padding: 8px 16px;
+  border-radius: 9px;
+  font-size: 0.875rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Details {
+  color: #007bff !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Details:hover {
+  text-decoration: underline;
+}
+
+.Table {
+  width: 100%;
+  margin-top: 2rem;
+  box-shadow: 0px 13px 20px 0px #80808029;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.MuiTableContainer-root {
+  border-radius: 12px;
+}
+
+.MuiTableCell-root {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.MuiTableHead-root {
+  background-color: #fafafa;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 120%;
+    margin-top: 2rem;
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Table {
+    width: 100%;
+    margin-top: 2rem;
+    overflow-x: auto;
+    display: block;
+  }
+  .MuiTableRow-root {
+    display: block;
+  }
+  .MuiTableCell-root {
+    display: block;
+    padding: 10px 0;
+  }
+}
