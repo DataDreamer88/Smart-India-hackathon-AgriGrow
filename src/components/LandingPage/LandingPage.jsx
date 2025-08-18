@@ -71,7 +71,7 @@ const LandingPage = () => {
 
         <h3>Forecasting Crop Prices, Empowering Farmers</h3>
     
-        <Link to="/dashboard" className="cta-button">Sign In</Link>
+        <Link to="/dashboard" className="cta-button">Click Here to open DASHBOARD</Link>
       </div>
 
    <div className="container" id="features">
